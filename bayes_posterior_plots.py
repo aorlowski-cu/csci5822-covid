@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     
 
-    # Define the PyMC3 model
+    # Define the PyMC model
     with pm.Model() as model:
         # Priors for the intervention effects
         beta_mask = pm.Normal("beta_mask", mu=0, sigma=1)
